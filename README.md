@@ -1,5 +1,6 @@
-# AirBnB Clone - The Console
+#  AirBnB clone - Web dynamic
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
@@ -26,6 +27,15 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 * Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+*  Flasgger :
+`sudo apt-get install -y python3-lxml `
+`sudo pip3 install flask_cors # if it was not installed yet`
+`sudo pip3 install flasgger`
+* jsonschema exception :
+`sudo pip3 uninstall -y jsonschema `
+`sudo pip3 install jsonschema==3.0.1`
+* No module named 'pathlib2'
+`sudo pip3 install pathlib2`
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
@@ -158,7 +168,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-Oumayma bougossa - [Github](https://github.com/oumaymabg) / [Twitter] (https://twitter.com/BougossaO)
+Oumayma bougossa - [Github](https://github.com/oumaymabg)
 
 Second part of Airbnb: Joann Vuong
 ## License
