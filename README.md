@@ -28,14 +28,14 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 *  Flasgger :
-`sudo apt-get install -y python3-lxml `
-`sudo pip3 install flask_cors # if it was not installed yet`
-`sudo pip3 install flasgger`
+/`sudo apt-get install -y python3-lxml `
+/ `sudo pip3 install flask_cors # if it was not installed yet`
+/ `sudo pip3 install flasgger`
 * jsonschema exception :
-`sudo pip3 uninstall -y jsonschema `
-`sudo pip3 install jsonschema==3.0.1`
+/ `sudo pip3 uninstall -y jsonschema `
+/ `sudo pip3 install jsonschema==3.0.1`
 * No module named 'pathlib2'
-`sudo pip3 install pathlib2`
+/ `sudo pip3 install pathlib2`
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
